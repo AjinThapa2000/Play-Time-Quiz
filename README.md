@@ -24,4 +24,12 @@ I can save my initials and score once the game is over.
 
 # Screenshot
 
+![](images/quiz1.jpg)
+
+![](images/quiz2.jpg)
+
+![](images/quiz3.jpg)
+
+![](images/quiz4.jpg)
+
 
