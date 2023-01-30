@@ -20,7 +20,7 @@ The game is over when all questions have been answered or the timer reaches zero
 
 I can save my initials and score once the game is over.
 
-# Deployed Link:
+# Deployed Link:https://ajinthapa2000.github.io/Play-Time-Quiz/ 
 
 # Screenshot
 
