@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Time Quiz</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+
+  <body>
+    <header>
+      <a id=leaderboard-link>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+      </i></a> 
+      <div class="timer">Time: <span id="time">0</span></div>
+  </header>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
+
+      <div id="questions" >
+        <h2 id="question-title"></h2>
+        <div id="choose-ans" class="choices">
+          <button id=option0 class="button option-button0"></button>
+          <button id=option1 class="button option-button1"></button>
+          <button id=option2 class="button option-button2"></button>
+          <button id=option3 class="button option-button3"></button>
+        </div>
+        <div id=result-d hidden id="rest">
+          <hr>
+          <p id=result-t></p>
+      </div>
+
+      </div>
+
+      <div id="end-screen">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback">
+        <h1 id="highScoreTitle">High Scores are:</h1>
+        <h1 id="resultShow"></h1>
+      </div>
+      <div id="buttonEl">
+        <button id="goBack">go Back</button>
+        <button id="clearScore">Clear Highscores</button>
+      </div>
+    </div>
+
+    <script src="./assets/js/working.js"></script>
+  </body>
+</html>
